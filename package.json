@@ -1,0 +1,24 @@
+{
+  "name": "flysystem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Loïc Couharde",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/node": "16",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^7.32.0",
+    "typescript": "^4.6.2"
+  },
+  "volta": {
+    "node": "16.14.0",
+    "yarn": "1.22.17"
+  }
+}
